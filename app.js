@@ -48,20 +48,63 @@ console.log(number);
 // console.log(number);
 
 // D)
-var num = parseInt(prompt('Enter Starting Number')); // Starting number  
-var range = parseInt(prompt('Enter End Range')); // Ending number 
+// var num = parseInt(prompt('Enter Starting Number'));
+// var range = parseInt(prompt('Enter End Range'));
+// var even = [];
+// var odd = [];
+// for (let i = num; i <= range; i++) {  
+//     if (i % 2 === 0) {  
+//         even.push(i);
+//     } else if (i % 2 !== 0) {  
+//         odd.push(i);
+//     }  
+// }
+// document.write(even  + 'is Even number ');
+// document.write(odd + 'is Odd number');
 
-var even = []
-var odd =[]
+// Q7
+// let list = ['cake','applepie','cookie','chips','patties'];
+// let userinput = prompt("Enter the item you want to search for:").toLowerCase();
+// let flag = false;
+// let index ;
+// let message;
+// for(let i = 0; i < list.length; i++){
+//     if(list[i] === userinput){
+//         flag = true ;
+//         index = i;
+//         message = `cookie is ${userinput} avaible at index ${index} in our bakery.`;
+//     }
+// }
+// if(flag === false){
+//     message =  `We are sorry. ${userinput} is not available in our bakery. `;
+// }
+// console.log(message);
 
-// Loop from the starting number to the ending number  
-for (let i = num; i <= range; i++) {  
-    if (i % 2 === 0) {  
-        even.push(i); // If the number is even  
-    } else if (i % 2 !== 0) {  
-        odd.push(i);
-        // console.log(i + " is Odd"); // If the number is odd  
-    }  
-}
-document.write(even  + 'is Even number ');
-document.write(odd + 'is Odd number');
+// // Q8
+
+// const A = [24, 53, 78, 60, 12];   
+// let largestNumber = A[0];   
+// for (let i = 1; i < A.length; i++) {  
+//     if (A[i] > largestNumber) {  
+//         largestNumber = A[i];  
+//     }  
+// }   
+// console.log("The largest number in the array is:", largestNumber); 
+
+// Q9
+
+const A = [24, 53, 78, 60, 12];   
+let largestNumber = A[0];   
+for (let i = 1; i < A.length; i++) {  
+    if (A[i] < largestNumber) {  
+        largestNumber = A[i];  
+    };  
+};   
+console.log("The largest number in the array is:", largestNumber); 
+
+// Q10 
+for (let number = 1; number <= 57; number++) {  
+    if (number % 5 === 0) {  
+        console.log(number);  
+    }; 
+};
