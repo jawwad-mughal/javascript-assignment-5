@@ -108,3 +108,10 @@ for (let number = 1; number <= 57; number++) {
         console.log(number);  
     }; 
 };
+
+// Q11
+let multiArry = [];
+multiArry.push([0,1,2,3]);
+multiArry.push([0,1,0,2]);
+multiArry.push([2,1,0,1]);
+console.log(multiArry);
